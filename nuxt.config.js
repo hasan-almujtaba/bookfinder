@@ -25,7 +25,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/toast.js',
     '~/plugins/persistedState.client.js'
   ],
 
@@ -46,7 +45,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    '@nuxtjs/dayjs'
+    '@nuxtjs/dayjs',
+    "vue-toastification/nuxt",
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -83,5 +83,10 @@ export default {
     families: {
       Montserrat: [400, 900]
     }
+  },
+
+  toast: {
+    timeout: 2000,
+    closeOnClick: false
   }
 }

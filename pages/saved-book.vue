@@ -111,11 +111,7 @@ export default {
   methods: {
     removeBook() {
       this.$store.dispatch("book/removeItem", this.remove.data);
-      this.$toast.open({
-        message: "Book Removed",
-        duration: 2000,
-        position: "top-right",
-      });
+      this.$toast.success("Book Removed");
 
       this.remove.dialog = false;
     },
