@@ -25,7 +25,7 @@
                 }}
               </li>
               <li class="list-item ml-n6">
-                {{ item.author || "Unknown Author" }}
+                {{ item.authors ? item.authors[0] : "Unknown Author" }}
               </li>
               <li class="list-item ml-n6 tw-text-secondary">
                 {{ item.publisher || "Unknown Publisher" }}

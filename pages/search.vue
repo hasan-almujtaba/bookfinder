@@ -85,6 +85,7 @@ export default {
           publisher: info.publisher,
           title: info.title,
           imageLinks: info.imageLinks,
+          pageCount: info.pageCount,
         });
       });
       this.search = "";
