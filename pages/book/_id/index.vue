@@ -20,6 +20,11 @@ export default {
     this.book = data.volumeInfo;
     this.book.id = this.$route.params.id;
   },
+  head() {
+    return {
+      title: this.book.title,
+    };
+  },
   data() {
     return {
       book: {},

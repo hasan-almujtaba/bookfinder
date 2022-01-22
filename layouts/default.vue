@@ -12,6 +12,14 @@
         </span>
       </div>
       <v-spacer></v-spacer>
+      <v-btn
+        icon
+        dark
+        href="https://github.com/Hasan-Almujtaba/bookfinder"
+        target="_blank"
+      >
+        <v-icon>mdi-github</v-icon>
+      </v-btn>
       <v-btn icon dark href="https://my.hasanproject.com" target="_blank">
         <v-icon>mdi-web</v-icon>
       </v-btn>
