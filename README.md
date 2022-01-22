@@ -22,7 +22,7 @@
     Web based app to search for books by entering keywords
     <br />
     <br />
-    <a href="https://github.com/Hasan-Almujtaba/bookfinder">View Demo</a>
+    <a href="https://book-finder.hasanproject.com/">View Demo</a>
     ·
     <a href="https://github.com/Hasan-Almujtaba/bookfinder/issues">Report Bug</a>
     ·
