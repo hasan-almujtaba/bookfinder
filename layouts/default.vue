@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    <loading-overlay></loading-overlay>
     <web-navigation></web-navigation>
     <v-main class="tw-bg-gray-200">
       <Nuxt keep-alive />
