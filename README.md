@@ -97,12 +97,14 @@ This project was created using
 ### Installation
 
 1. Clone repository to your local machine and install node modules
+
    ```bash
    npx degit Hasan-Almujtaba/bookfinder bookfinder
    cd bookfinder
    npm i
    ```
 2. Launch Nuxt JS
+
     ```bash
     npm run dev
     ```
