@@ -70,7 +70,7 @@ export default {
     async submit() {
       this.$store.dispatch("loading/setLoading");
       const { data } = await this.$axios.get(
-        `https://www.googleapis.com/books/v1/volumes?q=${this.search}&maxResults=40`
+        `volumes?q=${this.search}&maxResults=40`
       );
       this.$store.dispatch("loading/setLoading");
 

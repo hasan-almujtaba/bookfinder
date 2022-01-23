@@ -14,9 +14,7 @@
 <script>
 export default {
   async fetch() {
-    const { data } = await this.$axios.get(
-      `https://www.googleapis.com/books/v1/volumes/${this.$route.params.id}`
-    );
+    const { data } = await this.$axios.get(`volumes/${this.$route.params.id}`);
     this.book = data.volumeInfo;
     this.book.id = this.$route.params.id;
   },
@@ -32,6 +30,3 @@ export default {
   },
 };
 </script>
-
-<style>
-</style>
