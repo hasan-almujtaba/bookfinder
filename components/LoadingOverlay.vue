@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Lottie from "vue-lottie";
+import Lottie from "vue-lottie/src/lottie.vue";
 import * as animationData from "~/assets/lottie/loading.json";
 
 export default {
